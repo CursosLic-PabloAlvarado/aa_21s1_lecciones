@@ -57,23 +57,23 @@ Si estuviese trabajando en equipo, usualmente solo uno de los miembros
 del equipo actualiza al repositorio y posteriormente los otros
 miembros pueden sincronizarse con el repositorio ya actualizado.
 
-Asegúrese entonces de estar en su rama "master" (a veces se llama "main") con
+Asegúrese entonces de estar en su rama "main" (a veces se llama "master") con
 
-$ git checkout master     # (o git checkout main)
+$ git checkout main     # (o git checkout master)
 
 y baje todos los cambios del repositorio "upstream"
 
 $ git fetch upstream
 
-Ahora, asegúrese de que la rama "master" tenga todos los cambios hechos en "upstream"
+Ahora, asegúrese de que la rama "main" tenga todos los cambios hechos en "upstream"
 
-$ git pull upstream master     # (o git pull upstream main)
+$ git pull upstream main     # (o git pull upstream master)
 
 Si da un error, puede ser necesario habilitar este tipo de operación con 
 
-git pull upstream master --allow-unrelated-histories  #
+git pull upstream main --allow-unrelated-histories  # (o master)
 
-y agregue los cambios hechos en el master de su repositorio remoto
+y agregue los cambios hechos en el main de su repositorio remoto
 
 $ git push
 
