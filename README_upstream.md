@@ -59,7 +59,7 @@ miembros pueden sincronizarse con el repositorio ya actualizado.
 
 Asegúrese entonces de estar en su rama "master" (a veces se llama "main") con
 
-$ git checkout master
+$ git checkout master     # (o git checkout main)
 
 y baje todos los cambios del repositorio "upstream"
 
@@ -67,7 +67,11 @@ $ git fetch upstream
 
 Ahora, asegúrese de que la rama "master" tenga todos los cambios hechos en "upstream"
 
-$ git pull upstream master
+$ git pull upstream master     # (o git pull upstream main)
+
+Si da un error, puede ser necesario habilitar este tipo de operación con 
+
+git pull upstream master --allow-unrelated-histories  #
 
 y agregue los cambios hechos en el master de su repositorio remoto
 
