@@ -57,7 +57,7 @@ Si estuviese trabajando en equipo, usualmente solo uno de los miembros
 del equipo actualiza al repositorio y posteriormente los otros
 miembros pueden sincronizarse con el repositorio ya actualizado.
 
-Asegúrese entonces de estar en su rama "master" con
+Asegúrese entonces de estar en su rama "master" (a veces se llama "main") con
 
 $ git checkout master
 
