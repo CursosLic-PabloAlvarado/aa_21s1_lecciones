@@ -17,4 +17,5 @@ Para la sesión práctica, queremos modificar la regresión lineal sencilla en e
 1. para que haga la regresión lineal en 2 dimensiones
 2. para que haga regresión polinomial en 1 dimensión
 3. para que haga la regresión polinomial en 2 dimensiones
+4. 
 Cree en cada caso un archivo aparte.
