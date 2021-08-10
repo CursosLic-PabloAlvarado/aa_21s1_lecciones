@@ -1,6 +1,6 @@
 # Lección 05
 
-Tecnológico de Costa Rica
+Tecnológico de Costa Rica <br/>
 EL5857 Aprendizaje Automático
 
 En este directorio están los archivos GNU/Octave utilizados en la clase teórica para ejemplificar las estrategias de optimización:
@@ -17,3 +17,4 @@ Para la sesión práctica, queremos modificar la regresión lineal sencilla en e
 1. para que haga la regresión lineal en 2 dimensiones
 2. para que haga regresión polinomial en 1 dimensión
 3. para que haga la regresión polinomial en 2 dimensiones
+Cree en cada caso un archivo aparte.
