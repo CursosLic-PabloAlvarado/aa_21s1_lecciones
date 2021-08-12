@@ -83,11 +83,11 @@ $ git checkout <mi_rama_de_trabajo>
 
 e incorporar los cambios hechos, que ya estan en su master
 
-$ git merge master
+$ git merge main # (o master)
 
 
 Los otros miembros del grupo hacen commit de lo estén trabajando, y actualizan el repositorio con
 
 $ git pull
-$ git merge master
+$ git merge main # (o master)
 
