@@ -31,7 +31,7 @@ $ git remote -v
 Usted puede entonces agregar un nuevo repositorio remoto
 "upstream" contra el cual usted puede realizar actualizaciones:
 
-$ git remote add upstream https://github.com/CursosLic-PabloAlvarado/aa_21s1_lecciones.git
+$ git remote add upstream https://github.com/CursosLic-PabloAlvarado/aa_21s2_lecciones.git
 
 Por supuesto usted puede nombrar "upstream" como lo desee.  Ese es el
 nombre que por convención se usa como enlace para el origen al que se
@@ -83,11 +83,11 @@ $ git checkout <mi_rama_de_trabajo>
 
 e incorporar los cambios hechos, que ya estan en su master
 
-$ git merge master
+$ git merge main # (o master)
 
 
 Los otros miembros del grupo hacen commit de lo estén trabajando, y actualizan el repositorio con
 
 $ git pull
-$ git merge master
+$ git merge main # (o master)
 
