@@ -10,7 +10,7 @@ pkg load statistics;
 ## Construct some training data ##
 ##################################
 
-k=5;   ## Number of classes
+k=3;   ## Number of classes
 mk=100; ## Number of training points per class
 m=k*mk;
 
@@ -72,12 +72,15 @@ fflush(stdout);
 
 ## column
   
+tic
 alpha = 0.00015/m;
 
 allT=eye(k-1,k);
 
 iteration=0;
-while(delta>threshold)
+maxIterations=500000;
+
+while(iteration<maxIterations)
   h = hypothesis(X,Theta); ## Hypothesis
   grad = [ (allT(:,y)-h)*X ]; ## Gradient estimation
   last = Theta;
@@ -93,11 +96,13 @@ while(delta>threshold)
 endwhile
 printf("delta: %d              \n",delta);
 
+toc
+
 ## Create an image, where the color of the pixel is created by
 ## combining a bunch of colors representing each class, and the
 ## mixture is made with the probabilities.
 
-x=linspace(-1,1,256);
+x=linspace(-2,2,512);
 [GX,GY]=meshgrid(x,x);
 FX = [ones(size(GX(:)),1) GX(:) GY(:)];
 FZ = hypothesis(FX,Theta);
@@ -132,7 +137,7 @@ for (kk=1:k)
   figure(kk+1,"name",cstrcat("Class ",num2str(kk)));
   hold off;
 
-  x=-1.5:0.05:1;
+  x=-2:0.05:2;
   [GX,GY]=meshgrid(x,x);
   FX = [ones(size(GX(:)),1) GX(:) GY(:)];
   FZ = hypothesis(FX,Theta);
