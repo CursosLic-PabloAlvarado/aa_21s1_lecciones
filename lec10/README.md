@@ -18,4 +18,19 @@ En esta práctica usaremos varios conceptos "estándar" en la comunidad.
 5. Ejecute el ejemplo plot_mlp_training_curves.ipynb ¿A qué
    conclusiones puede llegar?
    
+Los siguientes pasos utilizarán TensorFlow como base con Keras como
+capa superior.  El TensorFlow es demandante en recursos y puede ser
+complicado de echar a andar.  Si no lo logar, puede utilizar Google
+Colab para tener hardware potente a disposición y para evitar los
+problemas de instalación.
 
+6. Revise el cuaderno keras_iris.ipynb
+7. Trate de modificar la red para que se comporte como un regresor logístico
+8. Agrege capas, y pruebe distintos tipos de funciones de activación,
+   número de unidades por capa, etc.
+9. Muestre las curvas de entrenamiento no solo para el set de
+   validación, sino para el set de entrenamiento.
+
+Empezando con PyTorch
+
+10. Revise el concepto de tensor en pytorch_grad.ipynb
