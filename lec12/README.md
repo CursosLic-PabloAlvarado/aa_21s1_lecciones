@@ -22,8 +22,9 @@ establece a continuación.
    las coordenadas que el usuario ingresa [x,y].
 3. El ejemplo MaxMargin.ipynb ya utiliza scikit-learn y los SVM para
    hacer el trabajo pesado.  Lo que se quiere aquí ahora es que usted
-   modifique el código de modo que pueda especificar un mapeo $\phi$ para
+   modifique el código de modo que pueda especificar un mapeo 
+   ![equation](https://render.githubusercontent.com/render/math?math=\phi) para
    modificar el espacio de entrada en un espacio de caracterísiticas.  En el 
    ejemplo bidimensional construya un mapeo cuadrático: 
    
-   $\phi([x,y]^T) = [x,y,x^2,y^2,xy]^T$
+   ![equation](https://render.githubusercontent.com/render/math?math=\phi([x,y]^T)=[x,y,x^2,y^2,xy]^T)
