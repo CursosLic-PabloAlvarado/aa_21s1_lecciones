@@ -1,6 +1,6 @@
 # Lección 08
 
-Martes 17 de agosto, 2021 <br/>
+Jueves 19 de agosto, 2021 <br/>
 Tecnológico de Costa Rica <br/>
 EL5857 Aprendizaje Automático
  

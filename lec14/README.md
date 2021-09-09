@@ -24,7 +24,9 @@ tendremos que trabajar.
        los valores correspondientes a los vectores de soporte. ¿Se cumple la
        condición 
        ![equation](https://render.githubusercontent.com/render/math?math=\sum_{i=1}^m\alpha_iy^{(i)}=0)?
+       
+   2.2 ¿Cómo podríamos calcular las "variables de holgura" (slack variables)?
 
-    2.2 En el reconocimiento de caras, anote las métricas de precisión y
-        exhaustividad (recall) alcanzadas, e intente encontrar un mejor 
-        desempeño modificando los parámetros.
+   2.3 En el reconocimiento de caras, anote las métricas de precisión
+       y exhaustividad (recall) alcanzadas, e intente encontrar un
+       mejor desempeño modificando los parámetros.

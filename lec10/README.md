@@ -1,6 +1,6 @@
 # Lección 10
 
-Martes 26 de agosto, 2021 <br/>
+Jueves 26 de agosto, 2021 <br/>
 Tecnológico de Costa Rica <br/>
 EL5857 Aprendizaje Automático
 
@@ -31,6 +31,3 @@ problemas de instalación.
 9. Muestre las curvas de entrenamiento no solo para el set de
    validación, sino para el set de entrenamiento.
 
-Empezando con PyTorch
-
-10. Revise el concepto de tensor en pytorch_grad.ipynb
