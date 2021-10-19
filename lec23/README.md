@@ -7,7 +7,7 @@ EL5857 Aprendizaje Automático
 En la práctica de hoy vamos a manipular espacios con PCA para
 aplicarles reducción de dimensiones.
 
-1. En el cuaderno plot_face_recognitio.ipynb ejecute el cuaderno,
+1. En el cuaderno plot_face_recognition.ipynb ejecute el cuaderno,
    anote los resultados obtenidos de la clasificación (precisión,
    exhaustividad, etc.)
 2. Repita el experimento, pero eliminando el emblanquecimiento en el PCA. 
